@@ -2,6 +2,8 @@
 
 A production-ready Machine Learning project structure for heart disease prediction, deployed using Streamlit.
 
+**Google Collab link** - https://colab.research.google.com/drive/1TvHN_NCEfuiHN4rsXoSn-Pw44BIrQLT8#scrollTo=M0P7uDbhPX9Y
+
 ## Structure
 
 ```
