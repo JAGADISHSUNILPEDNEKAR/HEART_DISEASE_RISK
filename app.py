@@ -6,7 +6,7 @@ from config import MODEL_FILE, PREPROCESSOR_FILE
 # Page configuration
 st.set_page_config(
     page_title="Heart Disease Risk Predictor",
-    page_icon="❤️",
+    page_icon="🫀",
     layout="centered"
 )
 
