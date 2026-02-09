@@ -27,12 +27,13 @@ wheels/
 .ipynb_checkpoints
 
 # Data files
-*.csv
-!data/.gitkeep
+# *.csv (Commented out to allow data for training on Streamlit Cloud if needed)
+# !data/.gitkeep
 
 # Models
-*.pkl
-!models/.gitkeep
+# *.pkl
+# *.joblib (Commented out to allow models for immediate deployment)
+# !models/.gitkeep
 
 # IDEs
 .vscode/
