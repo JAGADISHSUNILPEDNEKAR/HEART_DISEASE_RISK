@@ -6,7 +6,7 @@ from config import MODEL_FILE, PREPROCESSOR_FILE
 # Page configuration
 st.set_page_config(
     page_title="Heart Disease Risk Predictor",
-    page_icon="ꨄ︎",
+    page_icon="❤️",
     layout="centered"
 )
 
@@ -21,7 +21,7 @@ def load_artifacts():
         return None, None
 
 def main():
-    st.title("❤️ Heart Disease Risk Predictor")
+    st.title("ꨄ︎ Heart Disease Risk Predictor")
     st.write("Enter patient details to estimate the risk of heart disease.")
 
     model, preprocessor = load_artifacts()
