@@ -20,6 +20,15 @@ TEST_SIZE = 0.2
 N_ESTIMATORS = 200
 
 # Feature definitions
-NUMERIC_FEATURES = ['age', 'trestbps', 'chol', 'thalch', 'oldpeak', 'fbs', 'exang', 'ca']
-CATEGORICAL_FEATURES = ['sex', 'cp', 'restecg', 'slope', 'thal']
-TARGET_COLUMN = 'num'
+NUMERIC_FEATURES = [
+    "age",
+    "trestbps",
+    "chol",
+    "thalch",
+    "oldpeak",
+    "fbs",
+    "exang",
+    "ca",
+]
+CATEGORICAL_FEATURES = ["sex", "cp", "restecg", "slope", "thal"]
+TARGET_COLUMN = "num"
