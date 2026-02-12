@@ -182,13 +182,13 @@ def main():
             with c_res2:
                 st.write("Is there a risk of heart disease?")
                 risk_percent = probability if prediction == 1 else (1 - probability)
-                
+
                 # Custom progress bar color
                 bar_color = "#ff4b4b" if prediction == 1 else "#00c853"
                 st.markdown(
                     f"""
                     <div style="background-color: #444; border-radius: 10px; padding: 3px;">
-                        <div style="width: {risk_percent*100}%; background-color: {bar_color}; height: 20px; border-radius: 7px;"></div>
+                        <div style="width: {risk_percent * 100}%; background-color: {bar_color}; height: 20px; border-radius: 7px;"></div>
                     </div>
                     """,
                     unsafe_allow_html=True,
